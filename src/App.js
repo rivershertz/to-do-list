@@ -1,10 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Main from "./Main";
+import NavBar from "./NavBar";
 
 function App() {
   return (
-    <div className="h-screen bg-gradient-to-b from-[#0086ff] to-[#00ffda] pt-14">
+    <div className="bg-slate-100 h-screen">
+      <NavBar />
       <Main />      
     </div>
   );
